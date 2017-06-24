@@ -18,6 +18,7 @@ class Solution:
             s.append(tmp)
             i=i+1
         return s[n-1]+s[n-2]
+
 if __name__=="__main__":
     solution = Solution()
     print solution.climbStairs(1)

@@ -10,6 +10,7 @@ class Solution:
             return self.maxProfit(prices)
         else:
             return profit + self.maxProfit(prices)
+
     def maxProfit(self,prices):
         if prices == None or len(prices) < 2:
             return 0
