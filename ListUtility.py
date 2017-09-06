@@ -17,6 +17,18 @@ def print_list(node):
             print('%d'%(tmp.val), end='')
         tmp = tmp.next
 
+
+
+def build_list(vals):
+    head = ListNode(0)
+    temp = head
+    for val in vals:
+        node = ListNode(val)
+        temp.next = node
+        temp = temp.next
+    temp.next = None
+    return head.next
+
 test_list = ListNode(1)
 node2 = ListNode(2)
 node3 = ListNode(3)
