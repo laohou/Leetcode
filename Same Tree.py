@@ -10,7 +10,6 @@ class Solution:
     # @param q, a tree node
     # @return a boolean
     def isSameTree(self, p, q):
-    def isSameTree(self, p, q):
         if p==None and q==None:
             return True
         elif p==None or q==None:
